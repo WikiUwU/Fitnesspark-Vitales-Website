@@ -1,6 +1,59 @@
+/* This is a mobile-first layout */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lato', sans-serif;;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 1rem;
+}
+
+.main-header{
+    text-align: center;
+    background-color: #8EF58A;
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    background-color: #a5b1c2;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.logo{
+    width: 187px;
+    height: auto;
+}
+
+
+
+
+/* Media Queries */
+
+/* .container{
+    width: 70%;
+    margin: 0 auto;
+} */
