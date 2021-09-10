@@ -120,6 +120,22 @@ p{
 
 
 
+.room-tour h2{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.room-tour p{
+    text-align: start;
+}
+
+.room-tour h3{
+    color: #2ecc71;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
 
 /* Media Queries */
 
