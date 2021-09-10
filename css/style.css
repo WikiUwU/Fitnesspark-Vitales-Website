@@ -10,6 +10,10 @@ body{
     font-family: 'Lato', sans-serif;;
 }
 
+section{
+    padding-bottom: 2rem;
+}
+
 ol, ul{
     list-style: none;
 }
@@ -18,13 +22,16 @@ a{
     text-decoration: none;
 }
 
+p{
+    line-height: 1.5;
+}
+
 .container{
-    padding: 0 1rem;
+    padding: 0 1.2rem;
 }
 
 .main-header{
     text-align: center;
-    background-color: #8EF58A;
 }
 
 .navbar{
@@ -73,19 +80,21 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2.5rem 0;
+    height: 42vh;
+    width: auto;
     background: url(../images/Home-background.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.banner div:first-child{
-    height: 19rem;
-    width: 23rem;
+.background-box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(51, 51, 51, 0.4);
+    height: 11rem;
+    width: 14rem;
+    background-color: rgba(51, 51, 51, 0.7);
+    border-radius: 1rem;
 }
 
 .opening-hours{
@@ -94,12 +103,13 @@ a{
 }
 
 .opening-hours h1{
+    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 1rem;
 }
 
 .opening-hours p{
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     margin: 0.1rem 0;
 }
 
@@ -110,12 +120,26 @@ a{
 
 
 
+
 /* Media Queries */
 
-@media only screen and (min-width: 350px) {
+@media (min-width: 350px) {
 
     .link-text{
         font-size: 1rem;
+    }
+
+    .background-box{
+        height: 12rem;
+        width: 15rem;
+    }
+
+}
+
+@media (min-width: 1000px) {
+
+    .banner{
+        height: 52vh;
     }
 
 }
