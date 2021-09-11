@@ -15,7 +15,7 @@ main{
 }
 
 section{
-    padding-bottom: 2rem;
+    padding: 1rem 0;
 }
 
 ol, ul{
@@ -33,6 +33,7 @@ p{
 .container{
     padding: 0 1.2rem;
 }
+
 
 .main-header{
     text-align: center;
@@ -81,6 +82,8 @@ p{
 
 
 
+/* Top Section */
+
 .banner{
     display: flex;
     align-items: center;
@@ -128,7 +131,7 @@ p{
 }
 
 
-
+/* Video of studio room tour */
 .room-tour h2{
     text-align: center;
     margin: 1rem 0;
@@ -150,6 +153,38 @@ p{
     border-radius: 0.5rem;
     z-index: 0;
 }
+
+/* "Test Us" Sentences under video */
+.test-us{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.test-us p{
+    text-align: center;
+}
+
+.test-us-sentence{
+    margin-top: 1.25rem !important;
+}
+
+.mini-logo{
+    width: 100px;
+    height: auto;
+    margin-top: 0.8rem;
+}
+
+
+
+/* Activity Offers Section */
+
+.activity-offers{
+    background-color: #424147;
+    color: #f1f2f6;
+}
+
+
+
 
 /* Media Queries */
 
